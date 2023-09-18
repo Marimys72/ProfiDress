@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600;700;800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script defer src="swiper.js"></script>
+    <script defer src="app.js"></script>
+    <script src="https://unpkg.com/imask"></script>
+    <title>Фабрика махровых изделий</title>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__wrapper">
+                <div class="header__logo logo-main">
+                    <a href="#" class="logo-main__link">
+                        <img src="images/logo.png" class="logo-main__img" alt="Логотип">
+                    </a>
+                </div>
+                <div class="contacts-box">
+                    <a class="contacts-box__phone-link" href="tel:+88002221024">8 800 222 10 24</a>
+                    <button class="btn btn_call">Заказать звонок</button>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <section class="section-promo">
+            <div class="container">
+                <h1 class="section-promo__title title-promo">Махровые изделия для гостиниц оптом со скидкой до 50%</h1>
+                <div class="catalog-wrapper">
+                    <button class="catalog-wrapper__btn">
+                        <a href="#" class="catalog-wrapper__link">Посмотреть каталог</a>
+                    </button>
+                    <button class="btn btn_promo">Заказать</button>
+                </div>
+                <div class="services-wrapper">
+                    <ul class="services-wrapper__list">
+                        <li class="services-wrapper__item">
+                            <div class="services-wrapper__box">
+                                <img src="icons/time-icon.svg" class="services-wrapper__icon1"  alt="Швейная фабрика полного цикла">
+                                <p class="services-wrapper__text">швейная фабрика полного цикла</p>
+                            </div>
+                        </li>
+                        <li class="services-wrapper__item">
+                            <div class="services-wrapper__box">
+                                <img src="icons/product-icon.svg" class="services-wrapper__icon2"  alt="Объем продукции">
+                                <p class="services-wrapper__text">более 1 500 000 изделий произведено</p>
+                            </div>
+                        </li>
+                        <li class="services-wrapper__item">
+                            <div class="services-wrapper__box">
+                                <img src="icons/group-icon.svg" class="services-wrapper__icon3"  alt="Репутация">
+                                <p class="services-wrapper__text">более 6000 гостиниц доверяют нам</p>
+                            </div>
+                        </li>
+                        <li class="services-wrapper__item">
+                            <div class="services-wrapper__box">
+                                <img src="icons/warranty-icon.svg" class="services-wrapper__icon4"  alt="Надежность">
+                                <p class="services-wrapper__text">c 2011 года надежный поставщик</p>
+                            </div>
+                        </li>
+                        <li class="services-wrapper__item">
+                            <div class="services-wrapper__box">
+                                <img src="icons/reserve-icon.svg" class="services-wrapper__icon5"  alt="Наличие на складах">
+                                <p class="services-wrapper__text">ВСЕ В НАЛИЧИИ НА СОБСТВЕННЫХ СКЛАДАХ</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section class="section-category">
+            <div class="container">
+                <h2 class="section-category__title title-main">Что вы можете заказать у нас</h2>
+                <div class="category-wrapper">
+                    <div class="category-wrapper__card">
+                        <img src="images/production-1.jpg" class="category-wrapper__img" alt="Махровые халаты">
+                        <p class="category-wrapper__title">Махровые халаты</p>
+                        <button class="category-wrapper__btn btn">Заказать</button>
+                    </div>
+                    <div class="category-wrapper__card">
+                        <img src="images/production-2.jpg" class="category-wrapper__img" alt="Махровые полотенца">
+                        <p class="category-wrapper__title">Махровые полотенца</p>
+                        <button class="category-wrapper__btn btn">Заказать</button>
+                    </div>
+                    <div class="category-wrapper__card">
+                        <img src="images/production-3.jpg" class="category-wrapper__img" alt="Коврики для ног">
+                        <p class="category-wrapper__title">Коврики для ног</p>
+                        <button class="category-wrapper__btn btn">Заказать</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section-sale">
+            <div class="container">
+                <div class="section-sale__wrapper">
+                    <h2 class="section-sale__title title-main">получите образцы нашей продукции <span>бесплатно</span></h2>
+                    <p class="section-sale__special-info">только для организаций сферы horeca</p>
+                    <button class="section-sale__btn btn">Получить образцы</button>
+                </div>
+            </div>
+        </section>
+        <section class="section-production">
+            <div class="container">
+                <div class="production-wrapper">
+                    <div class="production-wrapper__card">
+                        <img src="images/product-1.jpg" class="production-wrapper__photo" alt="Махровые полотенца">
+                        <p class="production-wrapper__title">название товара</p>
+                        <ul class="production-wrapper__list">
+                            <li class="production-wrapper__item">Особенность товара 1</li>
+                            <li class="production-wrapper__item">Особенность товара 2</li>
+                            <li class="production-wrapper__item">Особенность товара 3</li>
+                        </ul>
+                        <div class="price-box">
+                            <p class="price-box__price">ОТ 100000 РУБ.</p>
+                            <button class="price-box__btn btn">Заказать</button>
+                        </div>
+                    </div>
+                    <div class="production-wrapper__card">
+                        <img src="images/product-2.jpg" class="production-wrapper__photo" alt="Махровые полотенца">
+                        <p class="production-wrapper__title">название товара</p>
+                        <ul class="production-wrapper__list">
+                            <li class="production-wrapper__item">Особенность товара 1</li>
+                            <li class="production-wrapper__item">Особенность товара 2</li>
+                            <li class="production-wrapper__item">Особенность товара 3</li>
+                        </ul>
+                        <div class="price-box">
+                            <p class="price-box__price">ОТ 100000 РУБ.</p>
+                            <button class="price-box__btn btn">Заказать</button>
+                        </div>
+                    </div>
+                    <div class="production-wrapper__card">
+                        <img src="images/product-3.jpg" class="production-wrapper__photo" alt="Махровые полотенца">
+                        <p class="production-wrapper__title">название товара</p>
+                        <ul class="production-wrapper__list">
+                            <li class="production-wrapper__item">Особенность товара 1</li>
+                            <li class="production-wrapper__item">Особенность товара 2</li>
+                            <li class="production-wrapper__item">Особенность товара 3</li>
+                        </ul>
+                        <div class="price-box">
+                            <p class="price-box__price">ОТ 100000 РУБ.</p>
+                            <button class="price-box__btn btn">Заказать</button>
+                        </div>
+                    </div>
+                    <div class="production-wrapper__card">
+                        <img src="images/product-4.jpg" class="production-wrapper__photo" alt="Женский махровый халат">
+                        <p class="production-wrapper__title">название товара</p>
+                        <ul class="production-wrapper__list">
+                            <li class="production-wrapper__item">Особенность товара 1</li>
+                            <li class="production-wrapper__item">Особенность товара 2</li>
+                            <li class="production-wrapper__item">Особенность товара 3</li>
+                        </ul>
+                        <div class="price-box">
+                            <p class="price-box__price">ОТ 100000 РУБ.</p>
+                            <button class="price-box__btn btn">Заказать</button>
+                        </div>
+                    </div>
+                    <div class="production-wrapper__card">
+                        <img src="images/product-5.jpg" class="production-wrapper__photo" alt="Мужской махровый халат">
+                        <p class="production-wrapper__title">название товара</p>
+                        <ul class="production-wrapper__list">
+                            <li class="production-wrapper__item">Особенность товара 1</li>
+                            <li class="production-wrapper__item">Особенность товара 2</li>
+                            <li class="production-wrapper__item">Особенность товара 3</li>
+                        </ul>
+                        <div class="price-box">
+                            <p class="price-box__price">ОТ 100000 РУБ.</p>
+                            <button class="price-box__btn btn">Заказать</button>
+                        </div>
+                    </div>
+                    <div class="production-wrapper__card">
+                        <img src="images/product-6.jpg" class="production-wrapper__photo" alt="Коврик для ног">
+                        <p class="production-wrapper__title">название товара</p>
+                        <ul class="production-wrapper__list">
+                            <li class="production-wrapper__item">Особенность товара 1</li>
+                            <li class="production-wrapper__item">Особенность товара 2</li>
+                            <li class="production-wrapper__item">Особенность товара 3</li>
+                        </ul>
+                        <div class="price-box">
+                            <p class="price-box__price">ОТ 100000 РУБ.</p>
+                            <button class="price-box__btn btn">Заказать</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section-call-1">
+            <div class="container">
+                <div class="section-call-1__wrapper">
+                    <h2 class="section-call-1__title title-second">ВЫ МОЖЕТЕ ЗАКАЗАТЬ ИЗДЕЛИЕ С НАНЕСЕНИЕМ ФИРМЕННОГО ЛОГОТИПА</h2>
+                </div>
+                <form action="#" class="form">
+                    <label class="label" for="phone-1">Ваш телефон</label>
+                    <div class="input-wrap">
+                        <input type="tel" id="phone-1" name="phone" class="phone" placeholder="+7 (___) ___-__-__"/>
+                        <input type="submit" class="form-btn" value="Заказать"/>
+                        <img class="decor" src="icons/arrow-icon.svg" alt="Декор">
+                    </div>
+                </form>    
+            </div>
+        </section>
+        <section class="section-benefits">
+            <div class="container">
+                <div class="benefits-wrapper">
+                    <div class="box-title">
+                        <h2 class="box-title__title title-second">Почему вы можете нам доверять</h2>
+                        <p class="box-title__text">как доверяют более 20 000 наших постоянных клиентов по всей России и СНГ</p>
+                    </div>
+                    <ul class="box-list">
+                        <li class="box-list__item">
+                            <div class="box-list__card">
+                                <img class="box-list__icon" src="icons/benefits-1.png" alt="Сертификация">
+                                <p class="box-list__info">Вся наша продукция сертифицирована</p>
+                            </div>
+                        </li>
+                        <li class="box-list__item">
+                            <div class="box-list__card">
+                                <img class="box-list__icon" src="icons/benefits-2.png" alt="Поставщик HoReCa">
+                                <p class="box-list__info">Мы более 11 лет являемся надёжным поставщиком HoReCa России и СНГ</p>
+                            </div>
+                        </li>
+                        <li class="box-list__item">
+                            <div class="box-list__card">
+                                <img class="box-list__icon" src="icons/benefits-3.png" alt="Индивидуальный подход">
+                                <p class="box-list__info">Индивидуально подходим<br> к каждому клиенту</p>
+                            </div>
+                        </li>
+                        <li class="box-list__item">
+                            <div class="box-list__card">
+                                <img class="box-list__icon" src="icons/benefits-4.png" alt="Маркировка">
+                                <p class="box-list__info">Вся продукция имеет маркировку Честный Знак</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="benefits-row">
+                    <p class="benefits-row__box"><span>Швейная Фабрика<br> полного цикла</span></p>
+                    <p class="benefits-row__box"><span>1000 м2</span><br>  производственная<br> площадь</p>
+                    <p class="benefits-row__box"><span>до 1000</span><br> изделий в день</p>
+                    <p class="benefits-row__box"><span>более 1,5 млн</span><br> изделий-опыт производства </p>
+                </div>
+            </div>
+        </section>
+        <section class="section-call-2">
+            <div class="container">
+                <div class="section-call-2__title-box">
+                    <h2 class="section-call-2__title title-main">Закажите махровые изделия<br> для комфорта ваших гостей</h2>
+                </div>
+                <form action="#" class="form">
+                    <label class="label" for="phone-2">Напишите свой номер телефона, и вы получите расчёт вашего заказа в течение 30 минут.</label>
+                    <div class="input-wrap">
+                        <input type="tel" id="phone-2" name="phone" class="phone" placeholder="+7 (___) ___-__-__"/>
+                        <input type="submit" class="form-btn" value="Заказать"/>
+                    </div>
+                </form> 
+            </div>
+        </section>
+        <section class="section-box">
+            <div class="container">
+                <div class="section-box__slider">
+                    <h2 class="section-box__title-slider title-main">Что о нас говорят клиенты</h2>
+                        <div class="swiper popular-slider">
+                            <div class="slider-wrapper swiper-wrapper">
+                                <div class="slider-wrapper__slider-1 slider swiper-slide">
+                                    <div class="slider__rating-wrapper">
+                                        <img src="icons/star-1.svg" class="slider__icon" alt="Рейтинг">
+                                        <img src="icons/star-1.svg" class="slider__icon" alt="Рейтинг">
+                                        <img src="icons/star-1.svg" class="slider__icon" alt="Рейтинг">
+                                        <img src="icons/star-1.svg" class="slider__icon" alt="Рейтинг">
+                                        <img src="icons/star-1.svg" class="slider__icon" alt="Рейтинг">
+                                    </div>
+                                    <p class="slider__text">“Orci vel eget in eu. Integer amet porttitor hendrerit etiam arcu, aliquet duis pretium consequat. Semper sed viverra enim ut nunc.”
+                                    </p>
+                                    <img src="icons/Avatar.svg" class="slider__avatar" alt="Аватар">
+                                    <p class="slider__name">Courtney Henry</p>
+                                </div>
+                                <div class="slider-wrapper__slider-2 slider swiper-slide">
+                                    <div class="slider__rating-wrapper">
+                                        <img src="icons/star-2.svg" class="slider__icon" alt="Рейтинг">
+                                        <img src="icons/star-2.svg" class="slider__icon" alt="Рейтинг">
+                                        <img src="icons/star-2.svg" class="slider__icon" alt="Рейтинг">
+                                        <img src="icons/star-2.svg" class="slider__icon" alt="Рейтинг">
+                                        <img src="icons/star-2.svg" class="slider__icon" alt="Рейтинг">
+                                    </div>
+                                    <p class="slider__text">“Orci vel eget in eu. Integer amet porttitor hendrerit etiam arcu, aliquet duis pretium consequat. Semper sed viverra enim ut nunc.”
+                                    </p>
+                                    <img src="icons/Avatar.svg" class="slider__avatar" alt="Аватар">
+                                    <p class="slider__name">Courtney Henry</p>
+                                </div>
+                                <div class="slider-wrapper__slider-3 slider swiper-slide">
+                                    <div class="slider__rating-wrapper">
+                                        <img src="icons/star-2.svg" class="slider__icon" alt="Рейтинг">
+                                        <img src="icons/star-2.svg" class="slider__icon" alt="Рейтинг">
+                                        <img src="icons/star-2.svg" class="slider__icon" alt="Рейтинг">
+                                        <img src="icons/star-2.svg" class="slider__icon" alt="Рейтинг">
+                                        <img src="icons/star-2.svg" class="slider__icon" alt="Рейтинг">
+                                    </div>
+                                    <p class="slider__text">“Orci vel eget in eu. Integer amet porttitor hendrerit etiam arcu, aliquet duis pretium consequat. Semper sed viverra enim ut nunc.”
+                                    </p>
+                                    <img src="icons/Avatar.svg" class="slider__avatar" alt="Аватар">
+                                    <p class="slider__name">Courtney Henry</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slider-buttons">
+                            <div class="popular-slider-btn swiper-button-prev"></div>
+                            <div class="popular-slider-btn swiper-button-next"></div>
+                        </div> 
+                    <h2 class="section-box__title title-main">нам доверяют</h2>
+                    <div class="section-box__brand-wrapper brand-wrapper">
+                        <img src="icons/brand-1.svg" class="brand-wrapper__brand-logo" alt="Holiday Inn">
+                        <img src="icons/brand-2.svg" class="brand-wrapper__brand-logo" alt="Elke Spa Hotel">
+                        <img src="icons/brand-3.svg" class="brand-wrapper__brand-logo" alt="Matreshka Plaza">
+                        <img src="icons/brand-4.svg" class="brand-wrapper__brand-logo" alt="Green Line Hotel">
+                        <img src="icons/brand-5.svg" class="brand-wrapper__brand-logo" alt="Русская охота">
+                        <img src="icons/brand-6.svg" class="brand-wrapper__brand-logo" alt="7-brand">
+                        <img src="icons/brand-7.svg" class="brand-wrapper__brand-logo" alt="Арника">
+                        <img src="icons/brand-8.svg" class="brand-wrapper__brand-logo" alt="Lotte">
+                        <img src="icons/brand-9.svg" class="brand-wrapper__brand-logo" alt="Hampton">
+                        <img src="icons/brand-10.svg" class="brand-wrapper__brand-logo" alt="Баден">
+                        <img src="icons/brand-11.svg" class="brand-wrapper__brand-logo" alt="Verba Mayr">
+                        <img src="icons/brand-12.svg" class="brand-wrapper__brand-logo" alt="Ривьера">
+                    </div>
+                    <h2 class="section-box__title-gallery title-main">ПРОИЗВОДСТВЕННЫЕ МОЩНОСТИ</h2>
+                    <div class="section-box__gallery gallery">
+                        <img src="images/gallery-big-1.jpg" class="gallery__photo-big big-1" alt="Цех">
+                        <img src="images/gallery-small-1.jpg" class="gallery__photo-small small-1" alt="Цех">
+                        <img src="images/gallery-small-2.jpg" class="gallery__photo-small small-2" alt="Цех">
+                        <img src="images/gallery-big-2.jpg" class="gallery__photo-big big-2" alt="Цех">
+                    </div>
+                    <div class="section-box__directory-box directory-box">
+                        <img class="directory-box__photo" src="images/directory.jpg" alt="Руслана Сукаева">
+                        <div class="directory-box__text">
+                            <p class="directory-box__text-lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Platea est diam quisque dignissim. Amet, quisque risus, ullamcorper ultrices quis odio viverra nulla. At euismod dolor, platea duis viverra cras odio dolor. Dui et pellentesque nibh laoreet. Erat donec arcu nunc vivamus risus enim orci nibh. Tempor, vulputate ligula eros ac sed a massa accumsan. Sed viverra consectetur malesuada nam volutpat. Id semper ultrices in faucibus aliquam. Diam quis ac leo hendrerit lectus libero, sit.</p>
+                        </div>
+                        <div class="directory-box__name-box name-box">
+                            <p class="name-box__name">Руслана Сукаева</p>
+                            <p class="name-box__position">Основатель Швейной Фабрики PROFI DRESS</p>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+        </section>
+        <section class="section-call-3">
+            <div class="container">
+                <div class="section-call-3__title-box">
+                    <h2 class="section-call-2__title title-main">Закажите махровые изделия<br> для комфорта ваших гостей</h2>
+                </div>
+                <form action="#" class="form">
+                    <label class="label" for="phone-3">Напишите свой номер телефона, и вы получите расчёт вашего заказа в течение 30 минут.</label>
+                    <div class="input-wrap">
+                        <input type="tel" id="phone-3" name="phone" class="phone" placeholder="+7 (___) ___-__-__"/>
+                        <input type="submit" class="form-btn" value="Заказать"/>
+                    </div>
+                </form> 
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-wrapper">
+                <a href="#" class="footer-logo">
+                    <img src="images/logo.png" class="footer-logo__img" alt="Логотип">
+                </a>
+                <ul class="footer-navigation">
+                    <li class="footer-navigation__item">
+                        <a href="#" class="footer-navigation__link">Политика конфеденциальности</a>
+                    </li>
+                    <li class="footer-navigation__item">
+                        <a href="#" class="footer-navigation__link">Согласие на рассылку</a>
+                    </li>
+                </ul>
+                <ul class="sozial-list">
+                    <li class="sozial-list__item">
+                        <a href="#" class="sozial-list__link">
+                            <img class="sozial-list__icon" src="icons/footer-icon1.svg" alt="LinkedIn">
+                        </a>
+                    </li>
+                    <li class="sozial-list__item">
+                        <a href="#" class="sozial-list__link">
+                            <img class="sozial-list__icon" src="icons/footer-icon2.svg" alt="Facebook">
+                        </a>
+                    </li>
+                    <li class="sozial-list__item">
+                        <a href="#" class="sozial-list__link">
+                            <img class="sozial-list__icon" src="icons/footer-icon3.svg" alt="Github">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
