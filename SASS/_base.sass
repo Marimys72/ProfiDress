@@ -20,12 +20,19 @@ body
     font-style: normal
     line-height: normal
     overflow-x: clip
-    min-width: 117.6rem
     
 .container
     max-width: 117.6rem
     margin: 0 auto
-    padding: 0 15px
+    padding: 0 1.5rem
+
+@media (max-width: 428px)
+    .container
+        width: 36.2rem
+        padding: 0 0.15rem
+    html
+        font-size: calc(100vw / 428 * 10)
+    
     
     
 
